@@ -1,0 +1,13 @@
+[{"pk": 1, "model": "products.category", "fields": {"name": "personalised", "friendly_name": "Personalised"}}, 
+{"pk": 2, "model": "products.category", "fields": {"name": "signs", "friendly_name": "Signs"}}, 
+{"pk": 3, "model": "products.category", "fields": {"name": "education", "friendly_name": "Education"}}, 
+{"pk": 4, "model": "products.category", "fields": {"name": "jars", "friendly_name": "Jars"}}, 
+{"pk": 5, "model": "products.category", "fields": {"name": "kids", "friendly_name": "Kids"}}, 
+{"pk": 6, "model": "products.category", "fields": {"name": "ornaments", "friendly_name": "Ornaments"}}, 
+{"pk": 7, "model": "products.category", "fields": {"name": "blanks", "friendly_name": "Blanks"}},
+{"pk": 8, "model": "products.category", "fields": {"name": "stationary", "friendly_name": "Stationary"}},
+{"pk": 9, "model": "products.category", "fields": {"name": "christmas", "friendly_name": "Christmas"}},
+{"pk": 10, "model": "products.category", "fields": {"name": "halloween", "friendly_name": "Halloween"}},
+{"pk": 11, "model": "products.category", "fields": {"name": "homeware", "friendly_name": "Homeware"}},
+{"pk": 12, "model": "products.category", "fields": {"name": "valentines", "friendly_name": "Valentines"}}
+]

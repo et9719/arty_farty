@@ -17,7 +17,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Cormorant+SC:wght@600;700&family=Quicksand&family=Raleway:wght@300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="{% static 'css/basef.css' %}">
+        <link rel="stylesheet" href="{% static 'css/baseh.css' %}">
         {% endblock %}
 
         {% block extra_css %}
@@ -121,6 +121,37 @@
         {% endblock %}
 
         {% block content %}
+        {% endblock %}
+
+        {% block footer %}
+        <div class="container-fluid footer-container text-two bg-three">
+            <div class="row">
+                <div class="col-8 offset-3 col-md-3 offset-md-1">
+                    <div class="row">
+                        <div class="col-3 footer-socials">
+                            <a href="https://www.instagram.com/artyfarty.gifts" class="social-i text-two" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>  
+                        <div class="col-3 footer-socials">
+                            <a href="https://www.facebook.com/ArtyFarty.Gifts" class="social-i text-two" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        </div>
+                        <div class="col-3 footer-socials">
+                            <a href="https://www.tiktok.com/@artyfartygifts" class="social-i text-two" target="_blank"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 t-and-c text-center">
+                    <a  target="_blank" class="text-two" href="">Terms and conditions</a> | <a target="_blank" class="text-two" href=""> Privacy policy</a>
+                </div>
+                <div class="col-12 col-md-3">
+                    <h4>Contact us:</h4>
+                    <a href="" class="text-two">Via the site</a>
+                    <br>
+                    <br>
+                    <p>Phone number: 07123456789</p>
+                    <p>Email: artyfarty@example.co.uk</p>
+                </div>
+            </div>
+        </div>
         {% endblock %}
 
         {% block postloadjs %}

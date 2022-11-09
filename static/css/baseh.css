@@ -66,6 +66,7 @@ body {
 
 .large-text {
     font-size: larger;
+    font-weight: bold;
 }
 
 .nav-link {
@@ -129,9 +130,23 @@ body {
     font-size: xxx-large;
 }
 
-.home-img {
-    width: 226px;
+.footer-socials {
+    padding-top: 40px;
 }
+.t-and-c {
+    position:relative;
+    top: 60px;
+}
+
+.home-img{
+    width: 226px;
+    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.40), 0 12px 40px 0 rgba(0, 0, 0, 0.40);
+}
+
+.footer-container {
+    margin-top: 50px;
+}
+
 
 /* -------------------------------- Media Queries */
 
