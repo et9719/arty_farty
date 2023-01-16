@@ -147,6 +147,86 @@ body {
     margin-top: 50px;
 }
 
+/* Products */
+
+
+
+/* Buttons */
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.btn.btn-outline-black.rounded-0,
+.btn.btn-black.rounded-0 {
+    padding: .375rem .375rem;
+}
+
+.btn.btn-outline-black.rounded-0.btn-lg,
+.btn.btn-black.rounded-0.btn-lg {
+    padding: .375rem .375rem;
+    font-size: .75rem;
+} 
+
+.site-button {
+    background-color: lightgray;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+} 
+
+.btn-black {
+    background: black;
+    color: white;
+} 
+
+.site-button:hover,
+.site-button:active,
+.site-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: rgb(212, 200, 178);
+    color: white;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
+.btn-outline-black {
+    background: white;
+    color: black !important;
+    border: 2px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -170,4 +250,15 @@ body {
           padding-top: 210px;
       }
   }
-  
+
+/* pad the top a bit when navbar is collapsed on mobile */
+
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 116px;
+    }
+
+    body {
+        height: calc(100vh - 116px);
+    }
+}
