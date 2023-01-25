@@ -40,16 +40,15 @@
                 Occasions
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="occasions-link">
-                <a href="" class="dropdown-item">All Occasions</a>
-                <a href="" class="dropdown-item">Christmas</a>
-                <a href="" class="dropdown-item">Halloween</a>
+                <a href="{% url 'products' %}?category=christmas,halloween,ornaments,valentines" class="dropdown-item">All Occasions</a>
+                <a href="{% url 'products' %}?category=christmas" class="dropdown-item">Christmas</a>
+                <a href="{% url 'products' %}?category=halloween" class="dropdown-item">Halloween</a>
                 <a href="" class="dropdown-item">Easter</a>
                 <a href="" class="dropdown-item">Weddings</a>
-                <a href="" class="dropdown-item">Bereavement</a>
+                <a href="{% url 'products' %}?category=ornaments" class="dropdown-item">Bereavement</a>
                 <a href="" class="dropdown-item">Fathers Day</a>
                 <a href="" class="dropdown-item">Mothers Day</a>
-                <a href="" class="dropdown-item">Valentines</a>
-                <a href="" class="dropdown-item">Teaching</a>
+                <a href="{% url 'products' %}?category=valentines" class="dropdown-item">Valentines</a>
             </div>
         </li>
     </ul>

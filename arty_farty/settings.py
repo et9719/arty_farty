@@ -155,4 +155,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-et9719-artyfarty-lyib6dwi5t0.ws-eu80.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-et9719-artyfarty-lyib6dwi5t0.ws-eu83.gitpod.io']
